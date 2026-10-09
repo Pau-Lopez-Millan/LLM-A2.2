@@ -1,0 +1,77 @@
+body {
+    background-color: #f7e018;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 3em; 
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    zoom: 70%;
+}
+
+
+#requadre {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 2000px; 
+    background-color: white; 
+    padding: 40px;
+    box-shadow: 0 0 15px black;
+}
+
+
+h1 {
+    color: #006994;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+
+.navegacio {
+    background-color: #ba9343; 
+    padding: 15px;
+    margin: 20px 0;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navegacio a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 50px;
+    color: orange;
+}
+
+.navegacio a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 2000px;
+    height: auto;
+}
+
+#data-publicació {
+    text-align: left;
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+a:hover {
+    color: #ff9900 !important;
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+a{
+    display: block;
+    margin: 15px 0;
+    text-align: left;
+}
