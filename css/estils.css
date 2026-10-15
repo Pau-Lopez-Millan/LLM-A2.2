@@ -10,8 +10,7 @@ body {
     align-items: center;
     zoom: 75%;
 }
-h1 + p,
-#requadre > p:first-of-type {
+#primer {
     font-weight: bold;
     font-size: 1.05em;
     line-height: 1.5;
