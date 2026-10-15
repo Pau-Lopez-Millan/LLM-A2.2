@@ -36,14 +36,13 @@ body {
 }
 
 #requadre header img {
+    background-color: #4a4a4a; 
     display: inline-block;
-    width: 100%;
+    width: 75%;
     max-width: 100%;
     height: auto;
     margin: 0 auto;
 }
-
-
 
 #requadre > img {
     display: block;
