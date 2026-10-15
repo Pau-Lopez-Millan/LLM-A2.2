@@ -3,12 +3,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    font-size: 3em; 
+    font-size: 1em; 
     line-height: 1.4;
     display: flex;
     flex-direction: column;
     align-items: center;
-    zoom: 50%;
 }
 
 
@@ -21,16 +20,38 @@ body {
     box-shadow: 0 0 15px black;
 }
 
+#requadre > img:first-child {
+    display: block;
+    margin: 0 auto 10px auto;
+    max-height: 50px;
+    width: auto;
+}
+
+#requadre ul {
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+#requadre li {
+    margin-bottom: 5px;
+    font-size: 0.95em;
+}
 
 h1 {
-    color: #006994;
+    color: #111;
     font-family: sans-serif;
     margin-top: 20px;
 }
 
+h2 {
+    color: #111;
+    font-size: 1.2em;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
 
 .navegacio {
-    background-color: #ba9343; 
+    background-color: #4a4a4a; 
     padding: 15px;
     margin: 20px 0;
     text-align: center;
@@ -39,12 +60,12 @@ h1 {
 }
 
 .navegacio a {
-    color: #fff;
+    color: #cbb06d;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
     font-size: 50px;
-    color: orange;
+    display: inline;
 }
 
 .navegacio a:hover {
@@ -54,15 +75,15 @@ h1 {
 img {
     display: block;
     margin: 20px auto;
-    max-width: 2000px;
+    max-width: 100%;
     height: auto;
 }
 
 #data-publicació {
     text-align: left;
     color: #666;
-    font-size: 0.9em;
-    margin-bottom: 20px;
+    font-size: 0.85em;
+    margin-bottom: 15px;
 }
 
 a:hover {
@@ -70,8 +91,25 @@ a:hover {
     text-decoration: underline !important;
     cursor: pointer;
 }
-a{
+
+a {
     display: block;
     margin: 15px 0;
     text-align: left;
+}
+
+footer {
+    width: 100%;
+    background-color: #8e44ad;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+footer img {
+    margin: 0;
+    height: 50px;
+    width: auto;
 }
