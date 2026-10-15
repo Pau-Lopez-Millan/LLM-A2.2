@@ -29,17 +29,19 @@ body {
 }
 
 #requadre > img:first-child {
-    display: block;
-    margin: 10px 0 10px auto;
-    max-height: 50px;
+    display: block !important;
+    margin: 0 auto 15px auto !important; 
+    max-width: 100%;
+    height: auto;
     width: auto;
 }
 
 #requadre img {
     display: block;
-    max-width: 100%; 
+    width: 100%;       
+    max-width: 100%;  
     height: auto;
-    margin: 20px 0; 
+    margin: 20px 0;
 }
 
 #requadre ul {
